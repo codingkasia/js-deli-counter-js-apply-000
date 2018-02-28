@@ -17,8 +17,8 @@ function nowServing() {
     }
   }
 }
-var nowServing = nowServing();
-nowServing();
+var nowServ = nowServing();
+nowServ();
 
 
 describe('nowServing', () => {
