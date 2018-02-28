@@ -12,9 +12,10 @@ function nowServing() {
       return "There is nobody waiting to be served!";
     } else {
       katzDeli.shift(0);
-      return `Currently serving ${numOne}.`
+      return `Currently serving ${numOne}.`;
     }
 }
+
 
 function currentLine() {
   var counter = 0;
