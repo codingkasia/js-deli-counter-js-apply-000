@@ -23,10 +23,12 @@ function currentLine() {
     return "The line is currently empty."
   } else {
     while(katzDeli.length > counter) {
-      tempArr.push(`${counter}. ${katzDeli[counter]);
+      tempArr.push(`${counter}. ${katzDeli[counter]}`);
       counter++;
       }
-      return `
+    }
+      return `The line is currently: ${tempArr}`
+}
       
     }
     ("The line is currently: 1. Bill, 2. Jane, 3. Ann");
