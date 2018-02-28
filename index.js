@@ -15,6 +15,7 @@ function nowServing() {
       katzDeli.shift(0);
       return `Currently serving ${numOne}.`;
     }
+  }
 }
 describe('nowServing', () => {
     it('returns the line is empty when no one is on line', () => {
