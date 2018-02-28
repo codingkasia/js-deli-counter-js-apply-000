@@ -15,8 +15,7 @@ function nowServing() {
       return `Currently serving ${numOne}.`;
     }
 }
-var nowServ = nowServing()();
-nowServ;
+
 
 
 describe('nowServing', () => {
