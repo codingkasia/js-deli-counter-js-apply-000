@@ -19,6 +19,8 @@ function nowServing() {
 }
 var nowServing = nowServing();
 nowServing();
+
+
 describe('nowServing', () => {
     it('returns the line is empty when no one is on line', () => {
       expect(nowServing([])).toEqual("There is nobody waiting to be served!");
