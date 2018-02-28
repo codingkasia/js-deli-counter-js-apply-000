@@ -17,7 +17,7 @@ function nowServing(katzDeli) {
 }
 
 
-function currentLine() {
+function currentLine(katzDeli) {
   var counter = 0;
   var tempArr = [];
   if(katzDeli.length === 0){
