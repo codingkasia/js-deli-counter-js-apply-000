@@ -6,3 +6,6 @@ function takeANumber(katzDeliLine, newName) {
   return `Welcome, ${newName}. You are number ${num} in line.`;
 }
 
+function nowServing() {
+  
+}
