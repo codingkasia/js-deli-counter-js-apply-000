@@ -7,12 +7,14 @@ function takeANumber(katzDeliLine, newName) {
 }
 
 function nowServing() {
-  if(katzDeli.length === 0) {
-    return `There is nobody waiting to be served!`;
-  } else {
-      return `Currently serving ${katzDeli[0]}.`
+  var numOne = katzDeli[0];
+  return function() {
+    if(katzDeli.length === 0) {
+      return `There is nobody waiting to be served!`;
+    } else {
+      katzDeli.shift(0);
+      return `Currently serving ${numOne}.`;
     }
-    return "Booboo";
 }
 describe('nowServing', () => {
     it('returns the line is empty when no one is on line', () => {
