@@ -21,13 +21,12 @@ function currentLine() {
   var tempArr = [];
   if(katzDeli.length === 0){
     return "The line is currently empty."
-  } else {
+  } 
     while(katzDeli.length > counter) {
       tempArr.push(`${counter}. ${katzDeli[counter]}`);
       counter++;
       }
       return `The line is currently: ${tempArr}`;
-    }
 }
       
     }
