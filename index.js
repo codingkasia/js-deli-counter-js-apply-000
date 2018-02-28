@@ -27,7 +27,7 @@ function currentLine() {
       counter++;
       }
     }
-      return `The line is currently: ${tempArr}`
+    return `The line is currently: ${tempArr}`
 }
       
     }
