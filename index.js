@@ -25,6 +25,7 @@ function currentLine(katzDeli) {
   } 
     while(katzDeli.length > counter) {
       tempArr.push(" " + (counter+1) + ". " + katzDeli[counter]);
+      tempArr.push( ${counter + 1}. ${katzDeli[counter]});
       counter++;
       }
       return `The line is currently:${tempArr}`;
